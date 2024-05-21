@@ -1,14 +1,16 @@
+import React from 'react';
 import './App.css';
-import LikeImage from './components/LikeImage';
-import LikePost from './components/LikePost';
-
+import LikeImage from './Props components/LikeImage';
+import LikePost from './Props components/LikePost';
+//import LikeImage from './HOCs components/LikeImage';
+//import LikePost from './HOCs components/LikePost';
 function App() {
   return (
     <div>
-      <h3>Some Blog</h3>
+      <h1>Some Blog</h1>
       <div className='buttons'>
-        <LikePost/>
-        <LikeImage/>
+        <LikePost />
+        <LikeImage />
       </div>
     </div>
   );
