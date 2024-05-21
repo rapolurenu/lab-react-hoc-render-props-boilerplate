@@ -1,4 +1,4 @@
-// LikeCounter.js
+
 import React, { Component } from 'react';
 
 class LikeCounter extends Component {
