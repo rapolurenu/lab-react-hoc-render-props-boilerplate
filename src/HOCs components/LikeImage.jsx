@@ -1,4 +1,4 @@
-// LikeImage.jsx
+
 import React from 'react';
 import withLikeCount from './withLikeCount';
 
