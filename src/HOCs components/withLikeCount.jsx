@@ -1,4 +1,4 @@
-// withLikeCount.js
+
 import React, { Component } from 'react';
 
 const withLikeCount = (WrappedComponent) => {
